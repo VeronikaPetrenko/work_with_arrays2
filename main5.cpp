@@ -21,9 +21,9 @@ int main() {
 	cout<<endl;
 	for (int i = 0; i < n; i++) {				 
 		sum=sum+mas[i];						//считаем сумму
-		sar=sum/n;						//считаем среднее арифметическое
 		pr=pr*mas[i];						//считаем произведение
 	}
+	sar=sum/n;							//считаем среднее арифметическое
 	cout<<"Ваш массив: ";
 	for(int i=0; i<n; i++){
 		cout<<mas[i]<<" ";}
